@@ -1,0 +1,99 @@
+/*Reponsive*/
+/*Pc*/
+@media (min-width:1024px)
+{
+    .mobie-menu-btn
+    {
+        display: none;
+    }
+
+}
+/*Tablet*/
+@media (min-width: 740px) and (max-width:1023px)
+{
+    .mobie-menu-btn
+    {
+        display: none;
+    }
+}
+/*Phone*/
+@media (max-width: 739px)
+{
+    .wrapper__header__nav
+    {
+        width: 100%;
+    }
+    .wrapper__header__nav li
+    {
+        display: block;
+    }
+    .wrapper__header__nav li a
+    {
+        width: 100%;
+    }
+    .wrapper__header 
+    {
+        overflow: hidden;
+        width: 100%;
+    }
+    .wrapper__header .search-btn
+    {
+        display: none;
+    }
+    .mobie-menu-btn
+    {
+        padding: 14px 19px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: white;
+    }
+    .mobie-menu-btn svg
+    {
+        height: 15px;
+        width: 15px;
+    }
+    .wrapper__header .mobie-menu-btn:hover
+    {
+        color: black;
+        background-color: #ccc;
+    }
+    .wrapper__nav__subnav
+    {
+        width: 100%;
+        background-color: gray;
+        position: initial;
+    }
+    .wrapper__nav__subnav>li>a
+    {
+        padding: 5px 40px;
+        color: white;
+    }
+    .about-team .member-item-phone
+    {
+        margin-top: 30px;
+        width: 100%;
+    }
+    .member-item-phone .member-imgx1
+    {
+        width: 60%;
+    }
+    .s-col-full
+    {
+        width: 100%;
+    }
+    .s-text
+    {
+        font-size: 10px;
+    }
+    .s-mt-16
+    {
+        margin-top: 16px;
+    }
+    .wrapper__footer .social-list svg
+    {
+        padding: 0 5px;
+        width: 30px;
+        height: 30px;
+    }
+}
